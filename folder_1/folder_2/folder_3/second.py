@@ -1,0 +1,1 @@
+print([x for x in open('folder_1/folder_2/text.txt')])
