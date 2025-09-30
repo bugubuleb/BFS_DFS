@@ -30,7 +30,7 @@ def bfs(main_folder):
         directory = queue.popleft()
 
         if os.path.isfile(directory):
-          if os.path.basename(directory) == 'text.txt':
+          if os.path.basename(directory) == 'back.txt':
             print('File found in the directory:', directory)
             included = [x for x in open(directory)]
             sybs = sum(len(x) for x in open(directory))
