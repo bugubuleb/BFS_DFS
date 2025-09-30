@@ -50,8 +50,8 @@ def bfs(main_folder):
 
 #bfs and dfs calls:
 
-print('<- bfs ---->')
-bfs('folder_1')
-
 print('<- dfs ---->')
 dfs('folder_1')
+
+print('<- bfs ---->')
+bfs('folder_1')
